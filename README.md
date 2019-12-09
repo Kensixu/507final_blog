@@ -5,11 +5,11 @@ Data Sources: UMICH Library Blog Website: https://www.lib.umich.edu/blogs
 
 In order to setup the database, run user_interface.py. Without cached file, it will create the cache file and database from scratch. This process will take some time, possibly up to 30 minutes. After that, you can run the unit tests in final_proj_test.py.
 
-=======Description=======
+## Description
 
 The code is structured into two main python programs. user_interface.py & UMlib_blog.py
 
-**UMlib_blog.py: 
+UMlib_blog.py: 
 
 scrapes the UMICH Library Blog website and gathers information about each blog posted.
 
