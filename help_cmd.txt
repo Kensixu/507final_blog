@@ -1,0 +1,77 @@
+Commands:
+
+======tags======
+    Description: A function that compares the number of tags used for all articles.
+
+    Options:
+        orderby=count/alpha - Default: count 
+        Description: Specifies whether to order tags alphabetically by typing "Alpha" or order according to the number
+        of times the tag has been used in total. Default is by database.
+
+        desc=desc or asc - Default: desc
+        Description: Specifies whether you would like your list returned in descending or ascending order. The default
+        is descending.
+
+        limit=None or # (Specific Number)- Default: None
+        Description: Specifies the amount of results you want returned. The default is all results in the database.
+
+        graph - Default: None
+        Description: Specifies if you would like a graph of the data displayed and auto open in your default web browser. 
+
+        ****The program will next ask for the index of the tag you would want to see for all the articles under that tag, 
+         or you can type "no" to exit.
+
+======authors======
+    Description: A function that lists authors names, their urls, and the amount of blogs they have posted.
+
+    Options:
+        orderby=count/alpha - Default: count
+        Description: Specifies if the information displayed is ordered by the total number of blogs an author has
+        published or lists authors name alphabetically, starting with their first name.
+
+        desc=desc/asc - Default: desc
+        Description: Specifies whether the results returned should be in descending or ascending order. The default is
+        descending.
+
+        limit=None or # (Specific Number)- Default: None
+        Description: Specifies the amount of results returned. The default is all the results in the database.
+
+        graph - Default: None
+        Description: Specifies if you would like a graph of the data displayed and auto open in your default web browser.
+        
+        ****The program will next ask for the index of the author you would want to see for all the articles written 
+        by him/her, or you can type "no" to exit.
+
+======comments======
+    Description: A function that returns the amount of comments made per month on all of the blogs published.
+
+    Options:
+        limit=None or # (Specific Number)- Default: None
+        Description: Specifies the amount of results returned. The default is all the results in the database.
+
+        graph - Default: None
+        Description: Specifies if you would like a graph of the data displayed and auto open in your default web browser. 
+        
+        ****The program will next ask for the index of the month you would want to see for all the articles for that month,
+        or you can type "no" to exit.
+
+======images======
+    Description: A function that returns the total number of images used for all posts made by a single blog site.
+
+    Options:
+        graph - Default: None
+        Description: Specifies if you would like a graph of the data displayed and auto open in your browser. 
+
+=====most_recent======
+    Description: A function that returns the most recent blogs to be published on the Library Blog site.
+
+    Options:
+        limit=None or # - Default is None
+        Description: Specifies the amount of results returned. Default is all the results in the database.
+
+======help======
+    Description: A command that will bring up all available commands and options.
+
+======exit======
+    Description: Exit the program.
+
