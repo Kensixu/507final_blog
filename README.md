@@ -9,7 +9,7 @@ In order to setup the database, run user_interface.py. Without cached file, it w
 
 The code is structured into two main python programs. user_interface.py & UMlib_blog.py
 
-*UMlib_blog.py: 
+*UMlib_blog.py:*
 
 scrapes the UMICH Library Blog website and gathers information about each blog posted.
 
@@ -21,7 +21,7 @@ enter_data_to_db(): This function takes the to_json() output of a class instance
 
 update_records(): This function: deletes duplicate tags, authors, and blogsites from their respective tables; establishes relations for tags, blogsites, authors; fills in data for TagAssociations; and fills in data for number of times tags were used and number of blogs authors published.
 
-*user_interface.py:
+*user_interface.py:*
 
 Processes queries for the database and displays information both in the terminal and through plotly.
 
