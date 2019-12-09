@@ -1,7 +1,7 @@
 # 507final_blog
 Data Sources: UMICH Library Blog Website: https://www.lib.umich.edu/blogs
 
-=======Get Start=======
+## Get Start
 
 In order to setup the database, run user_interface.py. Without cached file, it will create the cache file and database from scratch. This process will take some time, possibly up to 30 minutes. After that, you can run the unit tests in final_proj_test.py.
 
@@ -9,7 +9,7 @@ In order to setup the database, run user_interface.py. Without cached file, it w
 
 The code is structured into two main python programs. user_interface.py & UMlib_blog.py
 
-UMlib_blog.py: 
+*UMlib_blog.py: 
 
 scrapes the UMICH Library Blog website and gathers information about each blog posted.
 
@@ -21,7 +21,7 @@ enter_data_to_db(): This function takes the to_json() output of a class instance
 
 update_records(): This function: deletes duplicate tags, authors, and blogsites from their respective tables; establishes relations for tags, blogsites, authors; fills in data for TagAssociations; and fills in data for number of times tags were used and number of blogs authors published.
 
-**user_interface.py: 
+*user_interface.py:
 
 Processes queries for the database and displays information both in the terminal and through plotly.
 
@@ -37,7 +37,7 @@ comments functions: process_comments() and comments_line_graph() - Retrieve info
 
 images functions: process_images() and images_histogram() - Retrive information about the number of images used per blog site (total) and display the total and averages as a plotly histogram.
 
-=======User Guide=======
+## User Guide
 
 Commands in user_interface.py
 
